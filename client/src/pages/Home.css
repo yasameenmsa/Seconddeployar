@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: min-content;
+    width: 100vw;  }
+  
+  .left-div {
+    width: 3/4;
+  }
+  
+  .right-div{
+    padding: 5% 5%;
+    width: 1/4;
+  }
+
+
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: min-content;
+      margin: 0 0;
+    }
+  
+    .left-div {
+      width: 100%;
+      align-items: center;
+      margin: 0 0;
+      padding:0 0;
+    }
+    .right-div {
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        padding:0 0;
+        margin: 0 0;
+    }
+  }
+  
