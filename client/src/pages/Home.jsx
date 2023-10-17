@@ -60,7 +60,7 @@ export default function Home() {
               <h1 className='ARcolors-900 font-bold text-3xl lg:text-6xl'>
                 Find your next <span className='ARcolors-100'>perfect</span>
                 <br />
-                place with ease
+                place with us
               </h1>
               <div className='text-gray-400 text-xs sm:text-sm'>
                 A.R Estate is the best place to find your next perfect place to
